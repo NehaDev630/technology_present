@@ -1,0 +1,102 @@
+/* biloobhai font laye */
+body {
+  background-image: url(https://images.pexels.com/photos/234527/pexels-photo-234527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.left {
+  display: inline-block;
+  color: black;
+  position: absolute;
+  left: 34px;
+  /* border: 2px solid red; */
+  top: 20px;
+}
+.header left {
+  color: white;
+  border-radius: 2px;
+}
+.left img {
+  width: 70px;
+  /* black and white ke liye */
+  filter: invert(100%);
+}
+.left div {
+  text-align: center;
+}
+.mid {
+  display: block;
+  width: 33%;
+  margin: 30px auto;
+  /* border:2px solid red; */
+}
+.right {
+  position: absolute;
+  right: 34px;
+  top: 35px;
+  display: inline-block;
+  /* border: 2px solid yellow; */
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  /* color white nhi hua */
+
+  display: inline-block;
+  /* size bada chota krne ke liye */
+  font-size: 15px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  /* underline ke liye */
+  text-decoration: underline;
+  color: blueviolet;
+}
+.btn {
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 3px 4px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* btn ka hi part */
+.btn:hover {
+  background-color: blueviolet;
+}
+.container {
+  text-align: left;
+  border: 2px solid white;
+  margin: 200px 110px;
+  padding: 25px;
+  width: 20%;
+  border-radius: 25px;
+  color: white;
+}
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 180px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 3px auto;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.container h1 {
+  text-align: center;
+}
+.container button {
+  display: block;
+  width: 69%;
+  margin: 8px auto;
+  border-radius: 5px;
+}
